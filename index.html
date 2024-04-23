@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SETTING</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+    <div class="form">
+        <form>
+            <h1 class="center">SETTING</h1>
+            <h2 style="margin: 10px;"><span style='font-size:20px; '>&#128336;</span>
+                TIMER
+            </h2>
+            <h3 style="margin:0px;"> Time (minutes)</h3>
+            <div class="container">
+                <div class="item item1">
+                    <h4>Pomodoro</h4>
+                    <input type="number" value="5">
+                </div>
+
+                <div class="item item2">
+                    <h4>Short Break</h4>
+                    <input type="number" value="10">
+                </div>
+
+                <div class="item item3">
+                    <h4>Long Break</h4>
+                    <input type="number" value="10">
+                </div>
+
+            </div>
+            <div class="container">
+                <h4>Auto Start Breaks</h4>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="container">
+                <h4>Auto Start Pomodoros</h4>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="container">
+                <h4> Long Break interval</h4>
+                <div class="item item1">
+                    <input type="number" value="5">
+                </div>
+
+            </div>
+            <div>
+                <hr>
+                <h2 style="margin: 10px;">&#x2705;
+                    TASK</h2>
+                <div class="container">
+                    <h4>Auto Check Task
+                        <span style='font-size:19px;'>&#128712;</span>
+                    </h4>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="container">
+                    <h4>Auto Swich Task
+                        <span style='font-size:19px;'>&#128712;</span>
+                    </h4>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <hr>
+                
+                <h2 style="margin: 10px;">
+                        <span style='font-size:25px;'>&#128362;</span>
+                        SOUND
+                </h2>
+                <div class="container">
+                <h4  style="margin: 10px;">Alarm Sound<h4>
+                        <div class="m2"> 
+                            <select style="width:100px; height: 40px; background-color: #9b9898; float: right">
+                                <option value="0">Kitchen:</option>                               
+                            </select>                           
+                        </div>
+                        <div>
+                            <input type="range" min="0" max="100" value="50" step="1">
+                        </div>
+                       
+                        <div class="item item1">
+                            
+                        <h4>repeat  <input type="number" value="1"> </h4>
+                           
+                        </div>
+                       
+</div>   
+<div class="container">
+    <h4 style="margin: 10px;">Ticking Sound</h4>
+    <div class="m2"> 
+        <select style="width:100px; height: 40px; background-color: #9b9898; float: left;">
+            <option value="0">None</option>                               
+        </select>                           
+    </div>
+</div>           
+    <div>
+            <hr>
+            <h2 >&#x270F;
+                THEME</h2>          
+                    <div class="container">
+                        <h4>Color Themes</h4>
+                        <div class="box box1"></div>
+                        <div class="box box2"></div>
+                        <div class="box box3"></div>
+                    </div>
+                    <div class="container"> 
+                        <h4>Hour Format </h4>
+                        <select style="width:80px; height: 40px; background-color: #c4bebe; float: left;">
+                            <option value="24">24-Hour</option> 
+                        </select>
+                    </div>     
+                    <div class="container">
+                        <h4>Dark Mode when Running</h4>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>   
+                    <div>
+                        <h4>Small Window</h4>
+                        
+                    </div>     
+    </div>
+    <div>
+        <hr>
+<h2>&#x1F514;NOTIFICATION</h2>
+
+    </div>
+    <div class="container">
+        <h4>Reminder</h4> 
+        <select style="width:80px; height: 40px; background-color: #c4bebe; float: left;">
+            <option value="0">Last</option> 
+            <div class="item item1">
+                <input type="number"style="width:80px; height: 30px ;" value="5">
+        </select>
+    <p>min</p>
+    </div>
+    <div class="container">
+        <h4>Mobile Alarm
+            <span style='font-size:19px;'>&#128712;</span>
+        </h4>
+        <p class="underline"> + Add this device</p>
+
+    </div>
+    <div>
+        <hr>
+        <h2>&#8646;
+            INTERGRATION</h2>
+    </div>
+    <div class="container">
+        <h4>Todoist 
+            <span style='font-size:19px;'>&#128712;</span>
+            <button style="background-color: aliceblue; width: 100px;height: 40px;">
+                Connect &#x1F512;
+                    </button>
+        </h4>
+    </div>
+    <div class="container">
+        <h4>Webhook
+            <span style='font-size:19px;'>&#128712;</span>
+            <button style="background-color: aliceblue; width: 80px;height: 30px; ">
+        Add&#x1F512;
+            </button>
+        </h4>
+    </div>
+    <footer>
+        <button style="background-color: rgb(76, 75, 75);width: 50px;height: 30px; ">OK</button>
+    </footer>
+    </form>
+    </div>
+</body>
+</html>
